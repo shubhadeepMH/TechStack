@@ -16,12 +16,12 @@ const socialIcons = [
   {
     name: "Instagram",
     icon: <FaInstagram className="h-5 w-5 hover:text-yellow-400 cursor-pointer" />,
-    link: "https://www.instagram.com/shubhadeep.mahato.146/",
+    link: "https://www.instagram.com/drop_notch/",
   },
   {
     name: "LinkedIn",
     icon: <FaLinkedinIn className="h-5 w-5 hover:text-yellow-400 cursor-pointer" />,
-    link: "https://www.linkedin.com/company/98998555/admin/feed/posts/",
+    link: "https://www.linkedin.com/company/98998555",
   },
 ];
 
