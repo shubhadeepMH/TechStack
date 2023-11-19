@@ -47,7 +47,7 @@ function Page() {
         </h1>
         {/* Use a paragraph for the page introduction */}
         <p style={{fontFamily:"sans-serif"}} className="text-lg text-center font-bold text-white mt-4">
-          At <span className="text-2xl text-blue-700" style={{fontFamily:'serif'}}>TechStack</span>, We Specialize In Providing A Comprehensive
+          At <span className="text-2xl text-blue-700" style={{fontFamily:'serif'}}>DropNotch.</span>, We Specialize In Providing A Comprehensive
           Suite Of Digital Solutions To Elevate Your Online Presence <span style={{fontFamily:'serif'}} className="font-bold text-black text-2xl">At Lowest Price</span> And Drive
           Business Growth. Our Range Of Services Is Designed To Empower
           Businesses Of All Sizes, From Startups To Established Enterprises.
@@ -84,7 +84,7 @@ function Page() {
         {/* Use a paragraph for the page conclusion */}
         <p className="text-lg text-center text-white mt-8">
           Whether You're Looking To Establish A Robust Online Presence, Increase
-          Brand Awareness, Or Drive Sales, <span className="text-2xl text-black" style={{fontFamily:'serif'}}>TechStack</span> Is Committed To
+          Brand Awareness, Or Drive Sales, <span className="text-2xl text-black" style={{fontFamily:'serif'}}>DropNotch.</span> Is Committed To
           Delivering Tailored Solutions That Align With Your Unique Objectives.
           Join Hands With Us, And Let's Embark On A Journey To Digital Success
           Together!

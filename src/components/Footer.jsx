@@ -84,7 +84,7 @@ function Footer() {
         <Row className="mt-4">
           <Col className="text-center">
             <p className="mb-0">
-              © {new Date().getFullYear()} TechStack. All rights reserved.
+              © {new Date().getFullYear()} DropNotch. All rights reserved.
             </p>
           </Col>
         </Row>

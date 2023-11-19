@@ -6,7 +6,7 @@ import { FaInstagram, FaLinkedinIn,FaTwitter } from "react-icons/fa";
 const founder = {
   name: "Shubhadeep Mahato",
   image: "https://scontent.fccu9-3.fna.fbcdn.net/v/t39.30808-6/326110770_694534842140821_5042788323370012458_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=vkJdsv9tB9AAX_T_ULi&_nc_ht=scontent.fccu9-3.fna&oh=00_AfAGrGgZPTdG80em1yfFwWAWmv3J_LZcpWCEuzfSST30Og&oe=655D341A",
-  bio: "Hi I am Shubhadeep Mahato The Founder And CEO Of TechStack Ltd...",
+  bio: "Hi I am Shubhadeep Mahato The Founder And CEO Of DropNotch.",
   socials: [
     {
       name: "Instagram",

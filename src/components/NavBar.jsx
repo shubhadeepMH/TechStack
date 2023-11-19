@@ -18,8 +18,8 @@ const NavBar = () => {
         <div className="flex items-center">
             <img
                 src={icon1}
-                alt="TechStack icon"
-                className="h-[1.frem] w-[5.5rem] mr-2"
+                alt="DropNotch icon"
+                className="h-[1.7rem] w-[5.9rem] mr-2"
             />
         </div>
 
