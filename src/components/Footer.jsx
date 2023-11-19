@@ -21,14 +21,14 @@ const socialIcons = [
   {
     name: "LinkedIn",
     icon: <FaLinkedinIn className="h-5 w-5 hover:text-yellow-400 cursor-pointer" />,
-    link: "c",
+    link: "https://www.linkedin.com/company/98998555/admin/feed/posts/",
   },
 ];
 
 // Define the Footer component
 function Footer() {
   const redirectToGmail = () => {
-    const recipient = 'shubhadeepmahato123@gmail.com'; // Replace with the actual email address
+    const recipient = 'dropnotch@mail.com'; // Replace with the actual email address
 
     // Construct the Gmail compose URL
     const gmailComposeUrl = `https://mail.google.com/mail/u/0/?view=cm&fs=1&to=${recipient}`;
