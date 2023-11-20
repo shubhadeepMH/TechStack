@@ -2,7 +2,7 @@ import React from 'react';
 import 'tailwindcss/tailwind.css';
 
 // Import the video file
-import myVideo from '../assets/myVideo.mp4';
+import aboutImage from '../assets/AboutImage.jpg'
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import { useNavigate } from 'react-router-dom';
@@ -25,7 +25,7 @@ function AboutUs() {
         position: "fixed",
         zIndex: -1,
         width: "100%",
-        height: "100%",
+        height: "60%",
     };
 
     // Return the JSX element
@@ -34,9 +34,7 @@ function AboutUs() {
             <NavBar />
             <div className="flex flex-col items-center justify-center h-screen">
                 {/* Background video */}
-                <video className="videoTag" autoPlay loop muted style={videoStyle}>
-                    <source src={myVideo} type="video/mp4" />
-                </video>
+                <img style={videoStyle} src={aboutImage} alt="" />
                 {/* Title */}
                 <div className="w-full h-1/6 flex items-center justify-center">
                     <h1 style={{ color: 'rgb(255, 204, 153)', }} className="md:text-6xl text-3xl font-bold">About DropNotch.</h1>
