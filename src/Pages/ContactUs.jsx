@@ -4,6 +4,7 @@ import "tailwindcss/tailwind.css";
 import BusinessImage from '../assets/img.png'
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
+import emailjs from '@emailjs/browser';
 // Define the Contact component
 function Contact() {
   // Use state hooks to store the input values
@@ -15,15 +16,26 @@ function Contact() {
   // Define a function to handle the form submission
   const handleSubmit = (e) => {
     // Prevent the default browser behavior
+    let content={
+      message,email,name
+    }
+    console.log("Hi");
     e.preventDefault();
-
-    // Set the submitted state to true
+    // Sending The Email
+    emailjs.send('service_kb3spli', 'template_6cnbccc',content,'t6PN1HARmKE1tjvUM')
+    .then(function(response) {
     setSubmitted(true);
-
     setName('')
     setEmail('')
     setMessage('')
-    setSubmitted(false)
+    setSubmitted(false);
+    
+    }, function(error) {
+         alert('FAILED...', error)
+    });
+
+    // Set the submitted state to true
+    
   };
 
   return (
@@ -84,11 +96,11 @@ function Contact() {
             {/* Use a button for the send message */}
             <button
               type="submit"
-              className="block w-full font-bold mt-4 p-2 bg-gradient-to-r from-white to-black text-white rounded-md"
+              className="block w-full active:bg-green-300 font-bold mt-4 p-2 bg-gradient-to-r from-white to-black text-white rounded-md"
               // Use inline style to create a simple animation effect on the button
               style={{
                 transition: "transform 0.3s",
-                transform: submitted ? "scale(1.1)" : "scale(1)",
+                transform: submitted ? "scale(1.2)" : "scale(1)",
               }}
             >
               Send Message
