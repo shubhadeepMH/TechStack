@@ -16,7 +16,7 @@ const founder = {
     {
       name: "LinkedIn",
       icon: <FaLinkedinIn className="h-6 w-6 hover:text-black cursor-pointer"/>,
-      link: "https://www.instagram.com/shubhadeep.mahato.146/",
+      link: "https://www.linkedin.com/in/shubhadeep-mahato-24136621b/",
     },
     {
       name: "Email",
