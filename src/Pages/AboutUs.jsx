@@ -25,7 +25,7 @@ function AboutUs() {
         position: "fixed",
         zIndex: -1,
         width: "100%",
-        height: "60%",
+        height: "75%",
     };
 
     // Return the JSX element
@@ -34,9 +34,9 @@ function AboutUs() {
             <NavBar />
             <div className="flex flex-col items-center justify-center h-screen">
                 {/* Background video */}
-                <img style={videoStyle} src={aboutImage} alt="" />
+                <img className='md:h-[20rem] md:w-screen' style={videoStyle} src={aboutImage} alt="" />
                 {/* Title */}
-                <div className="w-full h-1/6 flex items-center justify-center">
+                <div className="w-full h-2/6 flex items-center justify-center">
                     <h1 style={{ color: 'rgb(255, 204, 153)', }} className="md:text-6xl text-3xl font-bold">About DropNotch.</h1>
                 </div>
                 {/* Description */}
