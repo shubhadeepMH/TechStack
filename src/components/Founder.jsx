@@ -1,11 +1,12 @@
 // Import React and other libraries
 import React from "react";
+import founderImage from '../assets/founder.jpg'
 import { FaInstagram, FaLinkedinIn,FaTwitter } from "react-icons/fa";
 
 // Define the founder data
 const founder = {
   name: "Shubhadeep Mahato",
-  image: "http://bit.ly/3RgSMHs",
+  image: founderImage,
   bio: "Hi I am Shubhadeep Mahato The Founder And CEO Of DropNotch.",
   socials: [
     {
